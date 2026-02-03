@@ -42,6 +42,8 @@ const UpdatePatient: Patient ={
 
 console.log("Root check (Should be true):", originalPatient !== UpdatePatient);
 console.log("Deep check (Should be true):", originalPatient.contact !== UpdatePatient.contact);
+console.log("--- Updated Patient Data ---");
+console.log(JSON.stringify(  UpdatePatient, null, 2));
 
 /* * During this lab, i realized that JavaScript's spread operator is 'shallow' by design.
 In a real-world Azure function or React state, forgetting the second spread

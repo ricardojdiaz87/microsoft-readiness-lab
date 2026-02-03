@@ -1,0 +1,25 @@
+{
+  "name": "microsoft-readiness-lab",
+  "version": "1.0.0",
+  "description": "This repository serves as a technical laboratory for mastering high-level software engineering patterns, \r memory management, and system scalability, aligned with Microsoft's engineering standards.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardojdiaz87/microsoft-readiness-lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ricardojdiaz87/microsoft-readiness-lab/issues"
+  },
+  "homepage": "https://github.com/ricardojdiaz87/microsoft-readiness-lab#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
